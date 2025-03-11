@@ -1,0 +1,10 @@
+﻿<h3>I am a grand child component.</h3>
+
+<h3>The text i am getting from main component is : @GrandChildParameter </h3>
+<h3>The lucky number is : @LuckyNumber </h3>
+@code {
+    [CascadingParameter(Name = "Message")]
+    public string GrandChildParameter { get; set; } = string.Empty;
+    [CascadingParameter(Name = "Luckynumb")]
+    public string LuckyNumber { get; set; }
+}

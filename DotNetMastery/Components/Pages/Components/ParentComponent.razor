@@ -1,0 +1,27 @@
+﻿@page "/learnBlazor/parentComponent"
+<h3>ParentComponent</h3>
+
+
+<CascadingValue Value="@GrandChildParameter" Name="Message">
+    <CascadingValue Value="@LuckNumber" Name="Luckynumb">
+        <_ChildComponent @ref="childComp" Title="This is first call of child component" OnButtonClick="ShowMessage">
+        <ChildContent>This is child render fregmant</ChildContent>
+    </_ChildComponent>
+    </CascadingValue>
+</CascadingValue>
+<p>@messageText</p>
+
+<div class="row">
+    <button class="btn btn-success m-2" style="width:200px; border:dashed" @onclick="()=>childComp.ToastrSuccess()">Sucess button from child is clicked.</button>
+</div>
+
+@code {
+    private _ChildComponent childComp;
+    public string messageText = "";
+    public string GrandChildParameter = "Hi grand child";
+    public string LuckNumber = "5";
+    private void ShowMessage()
+    {
+        messageText = "Button inside child component was clicked";
+    }
+}

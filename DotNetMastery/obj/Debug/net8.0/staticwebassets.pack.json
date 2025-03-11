@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Blazour\\DotNetMastery\\DotNetMastery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotNetMastery.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DotNetMastery.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Blazour\\DotNetMastery\\DotNetMastery\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Blazour\\DotNetMastery\\DotNetMastery\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Blazour\\DotNetMastery\\DotNetMastery\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Blazour\\DotNetMastery\\DotNetMastery\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Blazour\\DotNetMastery\\DotNetMastery\\wwwroot\\js\\common.js",
+      "PackagePath": "staticwebassets\\js\\common.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DotNetMastery.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DotNetMastery.props",
+      "PackagePath": "build\\DotNetMastery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DotNetMastery.props",
+      "PackagePath": "buildMultiTargeting\\DotNetMastery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DotNetMastery.props",
+      "PackagePath": "buildTransitive\\DotNetMastery.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

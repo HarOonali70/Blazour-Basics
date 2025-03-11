@@ -1,0 +1,48 @@
+﻿@page "/blazorjs"
+@inject IJSRuntime _jsRuntime
+@inject IJSRuntime JSRuntime
+
+<h3>BlazorJs</h3>
+
+<div class="row">
+    <button class="btn btn-success m-2" style="width:200px" @onclick="ShowToasterSuccess">Show success message.</button>
+    <button class="btn btn-danger m-2" style="width:200px" @onclick="ShowToasterError">Show error message.</button>
+</div>
+
+<div class="row">
+    <button class="btn btn-light m-2" style="width:200px; border:dashed" @onclick="ShowSweetAlert">Sweet Alert.</button>
+</div>
+
+<div>
+    @if (!confirmResult)
+    {
+        <p>Confirmation is pending</p>
+    }
+    else
+    {
+        <p>@confirmaton</p>    
+    }
+</div>
+
+@code {
+    private string confirmaton = "Confirmation is verified";
+    private bool confirmResult { get; set; }
+    private async Task TestConfirmation()
+    {
+        confirmResult = await _jsRuntime.InvokeAsync<bool>("confirm", confirmaton);
+    }
+    private async Task ShowToasterSuccess()
+    {
+        await _jsRuntime.InvokeVoidAsync("showToaster", "success", "Hi I am success");
+        await JSRuntime.ToasterSuccess("Hi I am success");
+    }
+    private async Task ShowToasterError()
+    {
+        // await _jsRuntime.InvokeVoidAsync("showToaster", "error", "Hi I am error");
+        await JSRuntime.ToasterError("Hi I am error");
+    }
+    private async Task ShowSweetAlert()
+    {
+        await _jsRuntime.InvokeVoidAsync("showSweetAlert");
+    }
+}

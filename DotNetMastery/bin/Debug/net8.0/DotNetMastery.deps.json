@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DotNetMastery/1.0.0": {
+        "runtime": {
+          "DotNetMastery.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetMastery/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

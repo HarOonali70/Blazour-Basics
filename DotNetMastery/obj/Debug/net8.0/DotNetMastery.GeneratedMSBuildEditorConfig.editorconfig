@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DotNetMastery
+build_property.RootNamespace = DotNetMastery
+build_property.ProjectDir = D:\Blazour\DotNetMastery\DotNetMastery\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Blazour\DotNetMastery\DotNetMastery
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/BindProperties.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXEJpbmRQcm9wZXJ0aWVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/BlazorJs.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXEJsYXpvckpzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/DemoProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXERlbW9Qcm9kdWN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/LearnRoutesComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXExlYXJuUm91dGVzQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/LifeCycle.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXExpZmVDeWNsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/ParentComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXFBhcmVudENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/PartialViews/_ChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXFBhcnRpYWxWaWV3c1xfQ2hpbGRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/PartialViews/_DeleteButtonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXFBhcnRpYWxWaWV3c1xfRGVsZXRlQnV0dG9uQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/PartialViews/_GrandChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXFBhcnRpYWxWaWV3c1xfR3JhbmRDaGlsZENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/PartialViews/_IndividualProduct.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXFBhcnRpYWxWaWV3c1xfSW5kaXZpZHVhbFByb2R1Y3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Components/PartialViews/_LifeCycleChild.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb21wb25lbnRzXFBhcnRpYWxWaWV3c1xfTGlmZUN5Y2xlQ2hpbGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-lapxc4tt0w
+
+[D:/Blazour/DotNetMastery/DotNetMastery/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-zsks91589p

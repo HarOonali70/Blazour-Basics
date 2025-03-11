@@ -1,0 +1,62 @@
+﻿@page "/learnBlazor/demoProduct"
+<h3>DemoProduct</h3>
+<p>Faverouite count : @FaverouiteCount</p>
+<p>The product you have selected is : @selectedproduct</p>
+<div class="row">
+    @foreach (var prod in ProductList)
+    {
+        <_IndividualProduct Product="prod" onFavert="FavCount" OnClickSelectedProduct="SelectedProductName">
+
+        </_IndividualProduct>
+    }
+</div>
+
+
+@code {
+    private int FaverouiteCount { get; set; } = 0;
+    private string selectedproduct { get; set; } = string.Empty;
+    private List<Product> ProductList = new List<Product>();
+    protected override void OnInitialized()
+    {
+        ProductList.Add(new()
+            {
+                Id = 1,
+                Name = "Midnight Blaze",
+                IsActive = false,
+                Price = 10,
+                ShowProperties = true,
+                ProductProperties = new List<Product_Prop>()
+                {
+                    new Product_Prop { Id = 1, Key = "Flavor", Value = "Rose"},
+                    new Product_Prop { Id = 2, Key = "Size", Value = "20oz"},
+                    new Product_Prop { Id = 3, Key = "Color", Value="Purple" }
+                }
+            });
+
+        ProductList.Add(new()
+            {
+                Id = 2,
+                Name = "Blossom Lily",
+                IsActive = true,
+                Price = 10,
+                ShowProperties = false,
+                ProductProperties = new List<Product_Prop>()
+            {
+                new Product_Prop { Id = 1, Key = "Flavor", Value = "Lily" },
+                new Product_Prop { Id = 2, Key = "Size", Value = "18oz" },
+                new Product_Prop {Id = 3,Key = "Color",Value = "White"}
+            }
+            });
+    }
+    protected void FavCount(bool isSelected)
+    {
+        if (isSelected)
+            FaverouiteCount++;
+        else
+            FaverouiteCount--;
+    }
+    protected void SelectedProductName(string productName)
+    {
+        selectedproduct = productName;
+    }
+}
